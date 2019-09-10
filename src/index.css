@@ -19,13 +19,49 @@ body {
   height: 50px;
   background-color: #16212e;
   width: 100%;
+  position: fixed;
 }
 
 .menu-content {
   width: 85%;
   margin: auto;
+  position:relative
 }
 
+.logo {
+  max-width:100%;
+  height:auto;
+  margin: auto;
+}
+
+.categories {
+  position: absolute;
+  right: 0px;
+}
+
+ul {
+  margin: 22px 0px 0px 0px;
+  right: 0;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  margin-left: 20px;
+  list-style: none;
+  display: inline;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  color: white;
+  font-style: normal;
+}
 
 /* DEBUG */
 .debug {
