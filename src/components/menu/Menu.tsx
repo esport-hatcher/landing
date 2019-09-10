@@ -16,7 +16,7 @@ class Menu extends React.Component {
     render () {
         return (
             <div className="menu">
-                <div className="menu-content container">
+                <div className="content container">
                     <img className="logo" src={Logo} alt="Esport Hatcher Logo"/>
                     <Categories categories={this.state.categories} />
                 </div>
