@@ -21,7 +21,7 @@ body {
   height: 80px;
   background-color: #16212e;
   width: 100%;
-  border-bottom: solid red 1px;
+  border-bottom: solid 1px #0e1623;
 }
 
 .content {
@@ -40,7 +40,7 @@ body {
 .categories {
   position: absolute;
   right: 0px;
-  bottom: 2px;
+  bottom: 5px;
 }
 
 ul {
@@ -58,7 +58,7 @@ li {
   list-style: none;
   display: inline;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -79,13 +79,34 @@ li {
 
 h3 {
   /* vertical-align: middle; */
+  margin: 0px;
   padding-top: 170px;
   color: white;
   font-size: 34px;
   text-align: center;
-  letter-spacing: 1px;
-  word-spacing: 2px;
+  
   text-shadow: 1px 1px 2px black;
+}
+
+.sliderLinks {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.subscription {
+  margin-right: 10px;
+}
+
+.information {
+  margin-left: 10px;
 }
 
 /* DEBUG */
