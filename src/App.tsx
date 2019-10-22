@@ -1,6 +1,8 @@
 import React from 'react';
 import Menu from './components/menu/Menu'
 import Slider from './components/slider/Slider'
+import Card from './components/cardPresentation/Card';
+import Tools from './components/tools/Tools';
 
 
 const App: React.FC = () => {
@@ -8,6 +10,8 @@ const App: React.FC = () => {
     <div>
       <Menu/>
       <Slider />
+      <Card />
+      <Tools />
     </div>
   );
 }

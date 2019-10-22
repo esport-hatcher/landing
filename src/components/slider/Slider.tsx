@@ -9,7 +9,6 @@ const Slider: React.FC = () => {
                     <a className="subscription" href="#">S'inscrire</a>
                     <a className="information" href="#">Plus D'informations</a>
                 </div>
-                
             </div>
         </div>
     );

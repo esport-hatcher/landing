@@ -25,7 +25,7 @@ body {
 }
 
 .content {
-  width: 85%;
+  width: 65%;
   height: 100%;
   margin: auto;
   position:relative
@@ -75,10 +75,10 @@ li {
   background-size: cover;
   background-position: 10%;
   opacity: 0.75;
+  margin-bottom: 50px;
 }
 
 h3 {
-  /* vertical-align: middle; */
   margin: 0px;
   padding-top: 170px;
   color: white;
@@ -109,9 +109,64 @@ a {
   margin-left: 10px;
 }
 
+/* CARD */
+.card {
+  background-color: #1d2938;
+  height: 150px;
+  margin-top: 15px;
+}
+
+.cardImg {
+  max-height: 70%;
+  height:auto;
+  margin: 22.5px 50px 0px 50px;
+  filter: invert(100%);
+  float: left;
+}
+
+.cardTitle {
+  padding: 15px 0px 0px 0px;
+  text-align: left; 
+}
+
+.cardText {
+  text-align: left; 
+  color: white;
+  font-size: 18px;
+  width: 95%;
+}
+
+/* TOOLS */
+.tools{
+  margin-top: 60px;
+  height: 180px;
+}
+
+.toolsLogo {
+  /* vertical-align: middle; */
+  height: 95%;
+  filter: invert(100%);
+  float: left;
+  margin: 0px 32px 0px 0px;
+  /* height:auto; */
+  object-fit: cover;
+}
+
+.tucasseslescouilles {
+  padding: 1px;
+}
+
+.underlineLink {
+  text-decoration: underline;
+}
+span {
+  color: white;
+}
+
+
 /* DEBUG */
 .debug {
-  height: 450px;
-  width: 100%;
+  /* height: 450px; */
+  /* width: 100%; */
   border: 1px red dotted;
 }
