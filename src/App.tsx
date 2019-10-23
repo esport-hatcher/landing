@@ -3,7 +3,7 @@ import Menu from './components/menu/Menu'
 import Slider from './components/slider/Slider'
 import Card from './components/cardPresentation/Card';
 import Tools from './components/tools/Tools';
-
+import Footer from './components/footer/Footer';
 
 const App: React.FC = () => {
   return (
@@ -12,6 +12,7 @@ const App: React.FC = () => {
       <Slider />
       <Card />
       <Tools />
+      <Footer />
     </div>
   );
 }

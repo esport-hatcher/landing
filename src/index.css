@@ -143,16 +143,14 @@ a {
 }
 
 .toolsLogo {
-  /* vertical-align: middle; */
   height: 95%;
   filter: invert(100%);
   float: left;
   margin: 0px 32px 0px 0px;
-  /* height:auto; */
   object-fit: cover;
 }
 
-.tucasseslescouilles {
+.toolsTexts {
   padding: 1px;
 }
 
@@ -161,6 +159,25 @@ a {
 }
 span {
   color: white;
+}
+
+
+/* FOOTER */
+.footer {
+  height: 200px;
+  margin-top: 50px;
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.footerSeparator {
+  height: 2px;
+  background-color: #1d2938;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 
