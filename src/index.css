@@ -94,9 +94,14 @@ li {
   font-style: normal;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 /* SLIDER */
 .slider {
-  height: 450px;
+  min-height: 450px;
   width: 100%;
   background: url("./assets/esport_event2.jpg") no-repeat;
   background-size: cover;
@@ -106,9 +111,9 @@ li {
   position: relative;
 }
 
-h3 {
+.sliderTitle {
   margin: 0px;
-  padding-top: 150px;
+  padding-top: 130px;
   color: white;
   font-size: 34px;
   text-align: center;
@@ -123,17 +128,28 @@ h3 {
   text-shadow: 1px 1px 2px black;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-}
-
 .subscription {
   margin-right: 10px;
 }
 
 .information {
   margin-left: 10px;
+}
+
+@media only screen and (max-width: 770px) {
+  .sliderTitle{
+    padding-top: 80px;
+    text-align: left;
+  }
+  .subscription {
+    display: block;
+    text-align: left;
+  }
+  .information {
+    text-align: left;
+    display: block;
+    margin: 0;
+  }
 }
 
 /* CARD */
