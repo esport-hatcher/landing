@@ -16,6 +16,10 @@ body {
   grid-template-columns: 40px auto 40px;
 } */
 
+p {
+  color: white;
+}
+
 .container {
   display: grid;
   grid-template-columns: 75px auto;
@@ -164,6 +168,30 @@ a {
   width: 95%;
 }
 
+@media only screen and (max-width: 770px) {
+  .card {
+    display: block;
+    background-color: #1d2938;
+    min-height: 170px;
+    margin-top: 15px;
+    padding: 20px;
+
+  }
+
+  .cardImg {
+    display: none;
+  }
+
+  .cardTitle {
+    text-align: left;
+  }
+  
+  .cardDescription {
+    text-align: justify;
+    text-justify: none;
+  }
+}
+
 /* TOOLS */
 .tools{
   margin-top: 60px;
@@ -231,12 +259,10 @@ span {
   font-size: 10px;
 }
 
-p {
-  color: white;
-}
 /* DEBUG */
 .debug {
   /* height: 450px; */
   /* width: 100%; */
   border: 1px red dotted;
 }
+
