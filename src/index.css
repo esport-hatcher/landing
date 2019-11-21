@@ -179,13 +179,18 @@ a {
   }
 
   .cardImg {
-    display: none;
+    /* display: none; */
+    float: none;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
   }
 
   .cardTitle {
     text-align: left;
+    margin-bottom: 30px;
   }
-  
+
   .cardDescription {
     text-align: justify;
     text-justify: none;
