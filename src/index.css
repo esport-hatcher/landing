@@ -161,11 +161,11 @@ a {
 /* TOOLS */
 .tools{
   margin-top: 60px;
-  height: 180px;
+  min-height: 180px;
 }
 
 .toolsLogo {
-  height: 95%;
+  height: 170px;
   filter: invert(100%);
   float: left;
   margin: 0px 32px 0px 0px;
