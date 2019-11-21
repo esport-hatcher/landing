@@ -179,7 +179,6 @@ a {
   }
 
   .cardImg {
-    /* display: none; */
     float: none;
     margin: 0 auto;
     display: block;
@@ -220,6 +219,18 @@ a {
 }
 span {
   color: white;
+}
+
+@media only screen and (max-width: 770px) {
+  .toolsLogo {
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .cardText {
+    text-align: justify;
+  }
 }
 
 
