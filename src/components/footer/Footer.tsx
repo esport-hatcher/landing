@@ -17,7 +17,7 @@ class Footer extends React.Component {
                     <a href="#" className="leftLink">A propos</a>
                     <a href="#">Nous contacter</a>
                 </div>
-                <p>Copyright © Esport Hatcher All rights Reserved</p>
+                <p className="copyright">Copyright © Esport Hatcher All rights Reserved</p>
                 {/* <svg>
                     <use href={`${facebook}`}></use>
                 </svg>*/}
