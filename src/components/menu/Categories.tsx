@@ -1,9 +1,16 @@
 import React from 'react';
 
 class Categories extends React.Component<{categories: string[]}> {
+
+    state = { toggle: false }
+
+    onToggle = () => this.setState({ toggle: !this.state.toggle})
+
     render () {
         return (
             <div className="categories">
+                <a href="#" className={`${this.state.toggle && "on"}`} id='toggle' onClick={this.onToggle}><span></span></a>
+
                 <ul>
                     {
                         this.props.categories.map((element, i) => {
