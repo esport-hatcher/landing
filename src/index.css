@@ -81,6 +81,34 @@ p {
   transform: rotate(-45deg) translate(7px, -8px);
 }
 
+.toggle-menu {
+  position: relative;
+  color: #999;
+  width: 200px;
+  padding: 10px;
+  margin: auto;
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  text-align: center;
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .4s;
+}
+
+.togge-menu:after {
+  position: absolute;
+  top: -15px;
+  left: 95px;
+  content: "";
+  display: block;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid white;
+}
+
 .menu {
   min-height: 80px;
   background-color: #16212e;
@@ -97,7 +125,7 @@ p {
 
 .logo {
   max-height: 90%;
-  height:auto;
+  max-width: -webkit-fill-available;
   margin-top: 5px;
 }
 
