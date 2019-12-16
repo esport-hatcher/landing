@@ -11,12 +11,12 @@ class Categories extends React.Component<{categories: string[]}> {
             <div className="categories">
                 <a href="#" className={`${this.state.toggle && "on"}`} id='toggle' onClick={this.onToggle}><span></span></a>
                 <div className="toggle-menu">
-                    <ul>
+                    <ul className="toggle-list">
                         {
                             this.props.categories.map((element, i) => {
                                 if (i === this.props.categories.length - 1) {
                                     return (
-                                        <li key={element}>
+                                        <li key={element} className="toggle-button">
                                             <a href="#">
                                                 <button className="buttons menu_button">
                                                     {element}
@@ -28,7 +28,7 @@ class Categories extends React.Component<{categories: string[]}> {
                                 else
                                 {
                                     return (
-                                        <li key={element}>
+                                        <li key={element} className="toggle-categories">
                                             <a href="#">
                                                 {element}
                                             </a>
@@ -39,7 +39,7 @@ class Categories extends React.Component<{categories: string[]}> {
                         }
                     </ul>
                 </div>
-                {/* <ul>
+                <ul id="classic-menu">
                     {
                         this.props.categories.map((element, i) => {
                             if (i === this.props.categories.length - 1) {
@@ -65,7 +65,7 @@ class Categories extends React.Component<{categories: string[]}> {
                             }
                         })
                     }
-                </ul> */}
+                </ul>
             </div>
         );
     }
