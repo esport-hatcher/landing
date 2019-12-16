@@ -237,14 +237,11 @@ a {
 @media only screen and (max-width: 770px) {
   .sliderTitle{
     padding-top: 80px;
-    text-align: left;
   }
   .subscription {
     display: block;
-    text-align: left;
   }
   .information {
-    text-align: left;
     display: block;
     margin: 0;
   }
