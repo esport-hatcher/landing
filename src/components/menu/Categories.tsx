@@ -43,6 +43,7 @@ class Categories extends React.Component<{categories: string[]}> {
                     {
                         this.props.categories.map((element, i) => {
                             if (i === this.props.categories.length - 1) {
+                                // console.log(element);
                                 return (
                                     <li key={element}>
                                         <a href="#">
@@ -55,6 +56,7 @@ class Categories extends React.Component<{categories: string[]}> {
                             }
                             else
                             {
+                                // console.log(element);
                                 return (
                                     <li key={element}>
                                         <a href="#">

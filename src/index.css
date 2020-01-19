@@ -251,7 +251,6 @@ a {
 .card {
   background-color: #1d2938;
   min-height: 170px;
-  /* height: 150px; */
   display: grid;
   grid-template-columns: 200px auto;
   margin-top: 15px;
@@ -259,9 +258,6 @@ a {
 
 .cardImg {
   height: 125px;
-  /* max-height: 70%; */
-  /* height:auto; */
-  /* margin: 22.5px 22.5px 0px 22.5px; */
   margin: auto auto;
   filter: invert(100%);
   float: left;

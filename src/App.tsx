@@ -11,7 +11,7 @@ const App: React.FC = () => {
       <Menu/>
       <Slider />
       <Card />
-      <Tools />
+      {/*<Tools /> */}
       <Footer />
     </div>
   );
