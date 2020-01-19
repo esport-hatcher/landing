@@ -15,13 +15,10 @@ class Card extends React.Component {
         vous soyez une petite structure ou une organisation de plus \
         grande taille active sur plusieurs jeux";
 
-        var testTitle = "";
-        var testDescription = "";
            return (
             <div className="content">
                 <CardContent logo={stick} title={stickTitle} description={stickDescription}/>
                 <CardContent logo={teams} title={teamsTitle} description={teamsDescription}/>
-                <CardContent logo={""} title={"testTitle"} description={testDescription}/>
             </div>
         );
     };
