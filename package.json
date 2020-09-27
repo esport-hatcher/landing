@@ -1,5 +1,6 @@
 {
   "name": "landing",
+  "homepage": "https://eip.epitech.eu/2021/esporthatcher",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
