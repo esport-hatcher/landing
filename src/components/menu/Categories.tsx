@@ -17,7 +17,7 @@ class Categories extends React.Component<{categories: string[]}> {
                                 if (i === this.props.categories.length - 1) {
                                     return (
                                         <li key={element} className="toggle-button">
-                                            <a href="#">
+                                            <a href="http://esport-hatcher.northeurope.cloudapp.azure.com/login">
                                                 <button className="buttons menu_button">
                                                     {element}
                                                 </button>
@@ -46,7 +46,7 @@ class Categories extends React.Component<{categories: string[]}> {
                                 // console.log(element);
                                 return (
                                     <li key={element}>
-                                        <a href="#">
+                                        <a href="http://esport-hatcher.northeurope.cloudapp.azure.com/login">
                                             <button className="buttons menu_button">
                                                 {element}
                                             </button>
